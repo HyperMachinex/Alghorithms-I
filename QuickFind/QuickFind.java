@@ -1,7 +1,7 @@
-package QuickFindUF;
-public class QuickFindUF{
+package QuickFind;
+public class QuickFind{
     private int[] id;
-    QuickFindUF(int N){
+    QuickFind(int N){
         id = new int[N];
         for(int i = 0; i < N; i++){
             id[i] = i;
