@@ -1,7 +1,7 @@
-package QuickFindUF;
+package QuickFind;
 public class Main {
     public static void main(String args[]){
-        QuickFindUF quickfind = new QuickFindUF(10);
+        QuickFind quickfind = new QuickFind(10);
         quickfind.print();
         quickfind.union(5, 2);
         quickfind.union(8, 1);
